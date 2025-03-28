@@ -10,11 +10,11 @@ const fecha = new Date(); /* Las fechas no se pueden pasar */
 
 export const PrimerFragment = () => {
   return (
-    <div>
+    <>
       <div>{string}</div> /* no pasa nada si no pnes espacios */
       <div>{array}</div>
       <div>{number}</div>
-    </div>
+    </>
   );
 };
 

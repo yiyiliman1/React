@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { PrimerComponente } from "./PrimerComponente";
-import { PrimerFragment } from "./Fragment";
+import { ContadorApp } from "./ContadorApp";
+import "./Styles.css";
 
 // Las llaves { } se utilizan para importar "exportaciones con nombre"(named exports) en JavaScript.
 // Esto significa que estás importando específicamente un valor(en este caso, el componente PrimerComponente),
@@ -9,8 +9,7 @@ import { PrimerFragment } from "./Fragment";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <PrimerComponente />
-    <PrimerFragment />
+    <ContadorApp value={0} />
   </StrictMode>
 );
 

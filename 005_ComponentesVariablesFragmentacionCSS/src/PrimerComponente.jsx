@@ -1,3 +1,5 @@
+import "./PrimerComponente.css";
+
 const string = "texto";
 const number = 123;
 const array = ["mimi", 123];
@@ -9,7 +11,7 @@ const fecha = new Date(); /* Las fechas no se pueden pasar */
 // Declarar variables
 
 export const PrimerComponente = () => {
-  return <div>{string}</div> /* no pasa nada si no pnes espacios */;
+  return <h1>{string}</h1> /* no pasa nada si no pnes espacios */;
 };
 
 // export const PrimerComponente = () => {
