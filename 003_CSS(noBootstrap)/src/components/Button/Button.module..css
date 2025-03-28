@@ -1,0 +1,7 @@
+.button { /* poniendole punto, se crea una propiedad ene l que todos los botones tienen esta propiedad */
+    color: peru;
+}
+
+.padded {
+    padding: 25px 30px;
+}
